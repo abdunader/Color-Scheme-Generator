@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  flex-direction: column;
+}
+
+.controlers {
+  display: flex;
+  width: 95%;
+  height: 50px;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.controlers input {
+  padding: 2px;
+  height: 100%;
+  width: 15%;
+}
+
+.controlers select {
+  width: 60%;
+  padding: 0 10px;
+}
+.controlers button {
+  width: 20%;
+}
+
+.colors {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+}
+
+.colors div {
+  width: 20%;
+  border: none;
+}
+
+#color1 {
+  background-color: red;
+}
+#color2 {
+  background-color: green;
+}
+#color3 {
+  background-color: blue;
+}
+#color4 {
+  background-color: brown;
+}
+#color5 {
+  background-color: pink;
+}
+
+.codes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.codes div {
+  width: 20%;
+  text-align: center;
+}
